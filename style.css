@@ -94,3 +94,65 @@ body {
     margin-bottom: 20px;
     text-align: center;
 }
+
+.plan {
+    width: 350px;
+    height: 300px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 30px;
+
+
+
+}
+
+.plan-section {
+    margin-bottom: 70px;
+
+}
+
+.icon-size {
+    width: 50px;
+
+}
+
+.our-plans {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+
+}
+
+#color {
+    background-color: antiquewhite;
+}
+
+#color2 {
+    background-color: lightpink;
+}
+
+#color1 {
+    background-color: aquamarine;
+}
+
+.update-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.box {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.update-input {
+    padding: 12x 20px;
+}
