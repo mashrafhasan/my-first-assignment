@@ -32,7 +32,8 @@ body {
 
 .re-titel {
     font-size: 20px;
-    margin-bottom: 30px;
+    margin: 80px;
+    text-align: center;
 }
 
 .Donate-Button {
@@ -49,6 +50,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.donate-text {
+    margin: 70px;
+    text-align: center;
+    align-items: center;
+    column-gap: 30;
+}
+
+.font-size {
+    font-size: 50px;
 }
 
 .donate-now-part {
@@ -118,6 +130,39 @@ body {
 
 }
 
+.optional {
+    display: flex;
+
+}
+
+.opt1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.half {
+    width: 50%;
+    padding: 10%;
+}
+
+.half img {
+    width: 100%;
+}
+
+.opt-pera {
+    margin-bottom: 20px;
+}
+
+.opt-btn {
+    text-decoration: none;
+    background-color: tomato;
+    color: aliceblue;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+
+}
+
 .our-plans {
     display: flex;
     justify-content: center;
@@ -145,14 +190,37 @@ body {
 }
 
 .box {
-    width: 600px;
+    width: 800px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
     background-color: bisque;
 }
 
+.update-text {
+    margin: 70px;
+}
+
+.footer {
+    background-color: black;
+    color: crimson;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div {
+    text-align: center;
+}
+
 .update-input {
+    font-size: large;
+    background-color: darkgray;
+    width: 500px;
+    height: 48px;
     padding: 12x 20px;
+    text-decoration: none;
 }
